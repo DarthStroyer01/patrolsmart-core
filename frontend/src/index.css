@@ -1,0 +1,51 @@
+/* === GLOBAL THEME VARIABLES & RESET === */
+
+:root {
+  /* Light mode */
+  --bg-page:       #f9fafb;
+  --text-page:     #1f2937;
+  --card-bg:       #ffffff;
+  --card-text:     #1f2937;
+  --input-bg:      #ffffff;
+  --input-text:    #111827;
+  --border:        #d1d5db;
+  --primary:       #2563eb;
+  --primary-hover: #1d4ed8;
+}
+
+/* Dark mode overrides */
+body.dark-mode {
+  --bg-page:       #1f1f2e;
+  --text-page:     #e5e7eb;
+  --card-bg:       #2d333b;
+  --card-text:     #e5e7eb;
+  --input-bg:      #374151;
+  --input-text:    #e5e7eb;
+  --border:        #4b5563;
+  --primary:       #3b82f6;
+  --primary-hover: #2563eb;
+}
+
+/* Leaflet reset (keep this import) */
+@import "leaflet/dist/leaflet.css";
+
+/* Apply page‐wide background & text colors */
+body {
+  margin: 0;
+  background: var(--bg-page);
+  color: var(--text-page);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+               Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue",
+               sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* Ensure form elements inherit the right colors */
+button, input, select, textarea {
+  font-family: inherit;
+  color: var(--input-text);
+}
+
+/* Any other global resets or base styles go below… */

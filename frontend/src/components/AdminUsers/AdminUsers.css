@@ -1,0 +1,112 @@
+.admin-users-container {
+    padding: 2rem;
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  .admin-users-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .admin-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+  }
+  
+  .admin-table th,
+  .admin-table td {
+    border: 1px solid #ddd;
+    padding: 0.75rem;
+    text-align: left;
+  }
+  
+  .admin-table th {
+    background: var(--card-bg);
+    font-weight: 600;
+  }
+  
+  .no-data {
+    text-align: center;
+    padding: 1rem;
+    color: #777;
+  }
+  
+  .btn {
+    padding: 0.4rem 0.8rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 0.875rem;
+    cursor: pointer;
+  }
+  
+  .btn-toggle {
+    background: #e5e7eb;
+    color: #111827;
+  }
+  
+  .btn-toggle:hover {
+    background: #d1d5db;
+  }
+  
+  .btn-action {
+    background: var(--primary);
+    color: #fff;
+  }
+  
+  .btn-action:hover {
+    background: var(--primary-hover);
+  }
+  
+  /* Modal overlay */
+  .modal-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Modal content */
+  .modal-content {
+    background: var(--card-bg);
+    color: var(--card-text);
+    padding: 1.5rem;
+    border-radius: 8px;
+    max-width: 400px;
+    width: 90%;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  .modal-title {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+  }
+  
+  .modal-select {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    background: var(--input-bg);
+    color: var(--input-text);
+  }
+  
+  .modal-footer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.5rem;
+  }
+  
+  /* in AdminUsers.css */
+.btn-delete {
+    background: #dc2626;
+    color: #fff;
+  }
+  .btn-delete:hover {
+    background: #b91c1c;
+  }
+  

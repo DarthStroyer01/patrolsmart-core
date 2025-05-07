@@ -1,0 +1,87 @@
+/* Clean grid layout for modern incident form */
+
+.incident-form-container {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    max-width: 700px;
+    margin: 2rem auto;
+    font-family: 'Segoe UI', sans-serif;
+    color: #333;
+  }
+  
+  .incident-form-container h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    color: #1d4ed8;
+  }
+  
+  .status-msg {
+    margin-bottom: 1rem;
+    font-weight: 500;
+    text-align: center;
+    color: #28a745;
+  }
+  
+  form.incident-form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+  
+  form.incident-form label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+  }
+  
+  form.incident-form select,
+  form.incident-form textarea,
+  form.incident-form input[type='text'] {
+    width: 100%;
+    padding: 10px;
+    font-size: 0.95rem;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-sizing: border-box;
+  }
+  
+  form.incident-form textarea {
+    resize: vertical;
+    min-height: 80px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  button[type='submit'] {
+    background-color: #1d4ed8;
+    color: white;
+  }
+  
+  button.gps-refresh {
+    background-color: #6b7280;
+    color: white;
+  }
+  
+  button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+  
+  .map-container {
+    margin-top: 1rem;
+    border-radius: 8px;
+    overflow: hidden;
+    height: 300px;
+  }
+  

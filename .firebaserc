@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "patrolsmart-core",
+    "staging": "patrolsmart-core"
+  },
+  "targets": {},
+  "etags": {}
+}

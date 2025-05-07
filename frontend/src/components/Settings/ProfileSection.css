@@ -1,0 +1,57 @@
+.profile-section {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .field-group {
+    margin-bottom: 1rem;
+  }
+  
+  .field-group label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+    color: #374151;
+  }
+  
+  .field-group input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #d1d5db;
+    border-radius: 4px;
+    font-size: 1rem;
+    color: #111827;
+  }
+  
+  .save-btn {
+    background-color: #2563eb;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .save-btn:hover {
+    background-color: #1d4ed8;
+  }
+  
+  .success-msg {
+    color: #16a34a;
+    margin-bottom: 1rem;
+    font-weight: 600;
+  }
+  
+  .error-msg {
+    color: #dc2626;
+    margin-bottom: 1rem;
+    font-weight: 600;
+  }
+  
